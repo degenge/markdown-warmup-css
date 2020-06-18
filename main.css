@@ -1,7 +1,9 @@
 body {
     font-family: 'Kanit', sans-serif;
-    background-color: #f4f6ff;
+    background-color: #222831;
     color: #555555;
+    margin: auto;
+    max-width: 750px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,11 +11,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    color: #10375c;
+    color: #f3c623;
+}
+
+h1.center {
+    text-align: center;
 }
 
 h2 {
     color: #127681;
+}
+
+a {
+    text-decoration: none;
+    color: #27496d;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f3c623;
+}
+
+img {
+    border-radius: 3%;
 }
 
 blockquote {
@@ -25,7 +45,7 @@ blockquote {
     font-size: 1.4em;
     font-style: italic;
     font-weight: bold;
-    background: #ededed;
+    background: #888888;
 }
 
 blockquote::before {
@@ -42,12 +62,15 @@ blockquote::after {
     content: '';
 }
 
-blockquote span {
-    display: block;
-    margin-top: 1em;
-    font-style: normal;
-    font-weight: bold;
-    color: #333333;
+table {
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+table thead th {
+    color: #f3c623;
 }
 
 ul {
@@ -61,4 +84,8 @@ ul li::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+footer {
+    text-align: center;
 }
